@@ -26,3 +26,42 @@ Heappush(): function used to insert items mentioned in its argument in a heap
 Removing items from a heap
 Heappop(): function used to remove and return the smallest item in a heap
 
+
+
+
+**Tupple**
+A tuple is a group of items that are divided up with commas. A tuple and a list are similar in several characteristics such as indexing, nested items, and repetition; Even so, the main difference between the two is that a tuple is immutable, while a list is mutable.
+Tuples are ordered, immutable, and allow duplicates.
+
+**Advantages of Tuple**
+1.The values and arrangement of tuples are fixed.
+2.Tuples are faster than list
+3.The code is protected from unintentional changes using tuples. It is preferable to store data in "tuples" rather than "lists" when it is needed for a program that shouldn't be altered.
+4.A tuple containing strings, numbers, or another tuple that contains immutable values can be used as a dictionary key.
+
+**Disadvantages**
+1.Since tuples are immutable, once they are created, they cannot be modified.
+2.Few Operations -Compared to lists, tuples have fewer built-in operations. For instance, you are unable to sort, add, or remove elements from a tuple.
+
+**Properties of Tuple**
+They're immutable.
+They can have duplicate items in them.
+They have an index.
+Tuples are ordered
+
+**Accessing An Item in a Tuple**
+One can access a tuple using indexing where the first element is index 0
+Example:
+class=("Adalab","Anitab","Lovelace")
+class[1]
+
+**Adding an element to a Tuple**
+Tuples are immutable so you cant add items 
+
+**Removing an element to a Tuple**
+Tuples are immutable so you cant remove items
+
+**Some operations used on Tuple**
+Concatenate 
+One can concatenate using + operator
+**Tuple operations**
