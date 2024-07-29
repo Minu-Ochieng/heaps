@@ -5,11 +5,11 @@ heapq.heapify(Numbers)
 print(Numbers)
 
 # adding item
-heapq.heappush(Numbers,1)  
+heapq.heappush(Numbers,20)  
 print(Numbers)
 
     #  Removing item
-heapq.heappop(Numbers) 
-print(Numbers)
+# heapq.heappop(Numbers) 
+# print(Numbers)
 
 
